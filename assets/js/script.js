@@ -51,9 +51,9 @@ var saveEl = $(".saveBtn");
     if(hour === i) {
       $(`#hour-${i + 1}`).children("textarea").addClass("present")
     } else if (hour > i) {
-      $(`#hour-${i + 1}`).children("textarea").addClass("future")
-    } else {
       $(`#hour-${i + 1}`).children("textarea").addClass("past")
+    } else {
+      $(`#hour-${i + 1}`).children("textarea").addClass("future")
     }
   }
 
